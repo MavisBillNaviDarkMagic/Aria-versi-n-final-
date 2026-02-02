@@ -1,8 +1,17 @@
 {
-  "name": "Aria Nexus Prime",
-  "description": "A high-end, futuristic AI command center featuring multi-modal interaction, real-time voice synthesis, image generation, and intelligent data visualization.",
+  "name": "Aria Final",
+  "description": "Edición Sakura - Android Ready",
   "requestFramePermissions": [
     "camera",
-    "microphone"
-  ]
+    "microphone",
+    "geolocation"
+  ],
+  "android": {
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.RECORD_AUDIO",
+      "android.permission.CAMERA",
+      "android.permission.MODIFY_AUDIO_SETTINGS"
+    ]
+  }
 }
